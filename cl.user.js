@@ -10,8 +10,6 @@
 // @match        http://scratch.mit.edu/projects/*/*
 // @match        https://scratch.mit.edu/users/*
 // @match        http://scratch.mit.edu/users/*
-// @match        https://scratch.mit.edu/projects/*/*
-// @match        http://scratch.mit.edu/projects/*/*
 // ==/UserScript==
 
 window.onload = function(){
