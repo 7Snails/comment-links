@@ -20,7 +20,6 @@ var i = 0;
 while(i < commentsLength) {
     var commentid = comments[i].id;
     var currentcomment = document.getElementsByClassName("actions-wrap")[i];
-    var commentlink = currentcomment.baseURI;
     var actionSpan = document.createElement("a");
     actionSpan.setAttribute("class", "actions report");
     actionSpan.setAttribute("href", "#" + commentid);
